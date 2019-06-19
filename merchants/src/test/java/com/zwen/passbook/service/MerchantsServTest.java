@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 5-9
@@ -20,7 +21,12 @@ public class MerchantsServTest {
     @Autowired
     private IMerchantsServ merchantsServ;
 
+    /**
+     * {"data":{"id":17},"errorMsg":""}
+     */
+
     @Test
+    @Transactional // This is a test case. Database will auto rollback
     public void testCreateMerchantsServ() {
         CreateMerchantsRequest request = new CreateMerchantsRequest();
         request.setName("zwen");

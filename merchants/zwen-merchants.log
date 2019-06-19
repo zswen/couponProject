@@ -1,0 +1,184 @@
+2019-06-19 12:22:23.566  INFO 27965 --- [main] com.zwen.passbook.MerchantsApplication   : Starting MerchantsApplication on ZhangsudeMBP.hsd1.ca.comcast.net with PID 27965 (/Users/zswen/Desktop/imooc/CouponProj/merchants/target/classes started by zswen in /Users/zswen/Desktop/imooc/CouponProj/merchants)
+2019-06-19 12:22:23.570  INFO 27965 --- [main] com.zwen.passbook.MerchantsApplication   : No active profile set, falling back to default profiles: default
+2019-06-19 12:22:23.647  INFO 27965 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c93084c: startup date [Wed Jun 19 12:22:23 PDT 2019]; root of context hierarchy
+2019-06-19 12:22:25.545  INFO 27965 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$2f68fd81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 12:22:26.028  INFO 27965 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9527 (http)
+2019-06-19 12:22:26.042  INFO 27965 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-06-19 12:22:26.044  INFO 27965 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-06-19 12:22:26.184  INFO 27965 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-19 12:22:26.184  INFO 27965 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2538 ms
+2019-06-19 12:22:26.311  INFO 27965 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-19 12:22:26.317  INFO 27965 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-19 12:22:26.318  INFO 27965 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-19 12:22:26.318  INFO 27965 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-19 12:22:26.318  INFO 27965 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-19 12:22:27.165  INFO 27965 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-06-19 12:22:27.198  INFO 27965 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-19 12:22:27.318  INFO 27965 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-06-19 12:22:27.320  INFO 27965 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-19 12:22:27.322  INFO 27965 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-06-19 12:22:27.365  INFO 27965 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-19 12:22:27.497  INFO 27965 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-19 12:22:27.999  INFO 27965 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 12:22:28.526  INFO 27965 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c93084c: startup date [Wed Jun 19 12:22:23 PDT 2019]; root of context hierarchy
+2019-06-19 12:22:28.595  INFO 27965 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-19 12:22:28.597  INFO 27965 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-19 12:22:28.632  INFO 27965 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 12:22:28.632  INFO 27965 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 12:22:28.680  INFO 27965 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 12:22:29.074  INFO 27965 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-06-19 12:22:29.083  INFO 27965 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-06-19 12:22:29.140  INFO 27965 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9527 (http)
+2019-06-19 12:22:29.146  INFO 27965 --- [main] com.zwen.passbook.MerchantsApplication   : Started MerchantsApplication in 6.066 seconds (JVM running for 7.066)
+2019-06-19 12:22:43.081  INFO 27965 --- [Thread-16] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c93084c: startup date [Wed Jun 19 12:22:23 PDT 2019]; root of context hierarchy
+2019-06-19 12:22:43.083  INFO 27965 --- [Thread-16] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-06-19 12:22:43.084  INFO 27965 --- [Thread-16] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-06-19 12:22:43.085  INFO 27965 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-06-19 12:22:43.088  INFO 27965 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 12:23:50.738  INFO 27990 --- [main] com.zwen.passbook.MerchantsApplication   : Starting MerchantsApplication on ZhangsudeMBP.hsd1.ca.comcast.net with PID 27990 (/Users/zswen/Desktop/imooc/CouponProj/merchants/target/classes started by zswen in /Users/zswen/Desktop/imooc/CouponProj/merchants)
+2019-06-19 12:23:50.742  INFO 27990 --- [main] com.zwen.passbook.MerchantsApplication   : No active profile set, falling back to default profiles: default
+2019-06-19 12:23:50.832  INFO 27990 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c93084c: startup date [Wed Jun 19 12:23:50 PDT 2019]; root of context hierarchy
+2019-06-19 12:23:52.371  INFO 27990 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$871d8308] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 12:23:52.701  INFO 27990 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9527 (http)
+2019-06-19 12:23:52.718  INFO 27990 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-06-19 12:23:52.720  INFO 27990 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-06-19 12:23:52.854  INFO 27990 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-19 12:23:52.855  INFO 27990 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2023 ms
+2019-06-19 12:23:52.998  INFO 27990 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-19 12:23:53.003  INFO 27990 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-19 12:23:53.004  INFO 27990 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-19 12:23:53.004  INFO 27990 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-19 12:23:53.004  INFO 27990 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-19 12:23:53.782  INFO 27990 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-06-19 12:23:53.796  INFO 27990 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-19 12:23:53.852  INFO 27990 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-06-19 12:23:53.854  INFO 27990 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-19 12:23:53.855  INFO 27990 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-06-19 12:23:53.904  INFO 27990 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-19 12:23:53.996  INFO 27990 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-19 12:23:54.417  INFO 27990 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 12:23:54.854  INFO 27990 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c93084c: startup date [Wed Jun 19 12:23:50 PDT 2019]; root of context hierarchy
+2019-06-19 12:23:54.913  INFO 27990 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-19 12:23:54.914  INFO 27990 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-19 12:23:54.949  INFO 27990 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 12:23:54.949  INFO 27990 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 12:23:54.989  INFO 27990 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 12:23:55.378  INFO 27990 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-06-19 12:23:55.386  INFO 27990 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-06-19 12:23:55.440  INFO 27990 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9527 (http)
+2019-06-19 12:23:55.445  INFO 27990 --- [main] com.zwen.passbook.MerchantsApplication   : Started MerchantsApplication in 5.192 seconds (JVM running for 6.245)
+2019-06-19 12:24:10.482  INFO 27990 --- [Thread-14] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c93084c: startup date [Wed Jun 19 12:23:50 PDT 2019]; root of context hierarchy
+2019-06-19 12:24:10.485  INFO 27990 --- [Thread-14] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-06-19 12:24:10.485  INFO 27990 --- [Thread-14] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-06-19 12:24:10.486  INFO 27990 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-06-19 12:24:10.488  INFO 27990 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 12:26:21.356  INFO 28033 --- [main] com.zwen.passbook.MerchantsApplication   : Starting MerchantsApplication on ZhangsudeMBP.hsd1.ca.comcast.net with PID 28033 (/Users/zswen/Desktop/imooc/CouponProj/merchants/target/classes started by zswen in /Users/zswen/Desktop/imooc/CouponProj/merchants)
+2019-06-19 12:26:21.361  INFO 28033 --- [main] com.zwen.passbook.MerchantsApplication   : No active profile set, falling back to default profiles: default
+2019-06-19 12:26:21.427  INFO 28033 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5be6e01c: startup date [Wed Jun 19 12:26:21 PDT 2019]; root of context hierarchy
+2019-06-19 12:26:23.006  INFO 28033 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$8bf269d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 12:26:23.337  INFO 28033 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9527 (http)
+2019-06-19 12:26:23.350  INFO 28033 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-06-19 12:26:23.352  INFO 28033 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-06-19 12:26:23.489  INFO 28033 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-19 12:26:23.489  INFO 28033 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2062 ms
+2019-06-19 12:26:23.652  INFO 28033 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-19 12:26:23.658  INFO 28033 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-19 12:26:23.659  INFO 28033 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-19 12:26:23.660  INFO 28033 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-19 12:26:23.660  INFO 28033 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-19 12:26:24.442  INFO 28033 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-06-19 12:26:24.474  INFO 28033 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-19 12:26:24.622  INFO 28033 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-06-19 12:26:24.624  INFO 28033 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-19 12:26:24.627  INFO 28033 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-06-19 12:26:24.674  INFO 28033 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-19 12:26:24.782  INFO 28033 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-19 12:26:25.282  INFO 28033 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 12:26:25.790  INFO 28033 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5be6e01c: startup date [Wed Jun 19 12:26:21 PDT 2019]; root of context hierarchy
+2019-06-19 12:26:25.850  INFO 28033 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-19 12:26:25.852  INFO 28033 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-19 12:26:25.888  INFO 28033 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 12:26:25.888  INFO 28033 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 12:26:25.929  INFO 28033 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-19 12:26:26.321  INFO 28033 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-06-19 12:26:26.330  INFO 28033 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-06-19 12:26:26.385  INFO 28033 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9527 (http)
+2019-06-19 12:26:26.390  INFO 28033 --- [main] com.zwen.passbook.MerchantsApplication   : Started MerchantsApplication in 5.564 seconds (JVM running for 7.288)
+2019-06-19 12:26:38.863  INFO 28033 --- [Thread-15] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5be6e01c: startup date [Wed Jun 19 12:26:21 PDT 2019]; root of context hierarchy
+2019-06-19 12:26:38.866  INFO 28033 --- [Thread-15] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-06-19 12:26:38.866  INFO 28033 --- [Thread-15] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-06-19 12:26:38.867  INFO 28033 --- [Thread-15] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-06-19 12:26:38.869  INFO 28033 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 15:27:01.167  INFO 29160 --- [main] c.z.passbook.service.MerchantsServTest   : Starting MerchantsServTest on ZhangsudeMBP.hsd1.ca.comcast.net with PID 29160 (started by zswen in /Users/zswen/Desktop/imooc/CouponProj/merchants)
+2019-06-19 15:27:01.169  INFO 29160 --- [main] c.z.passbook.service.MerchantsServTest   : No active profile set, falling back to default profiles: default
+2019-06-19 15:27:01.255  INFO 29160 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@771a660: startup date [Wed Jun 19 15:27:01 PDT 2019]; root of context hierarchy
+2019-06-19 15:27:03.169  INFO 29160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$8337bfba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 15:27:05.399  INFO 29160 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-06-19 15:27:05.425  INFO 29160 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-19 15:27:05.565  INFO 29160 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-06-19 15:27:05.567  INFO 29160 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-19 15:27:05.569  INFO 29160 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-06-19 15:27:05.641  INFO 29160 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-19 15:27:05.832  INFO 29160 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-19 15:27:06.577  INFO 29160 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 15:27:07.808  INFO 29160 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-06-19 15:27:07.824  INFO 29160 --- [main] c.z.passbook.service.MerchantsServTest   : Started MerchantsServTest in 8.518 seconds (JVM running for 10.293)
+2019-06-19 15:27:07.950  INFO 29160 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-19 15:27:08.324  WARN 29160 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1054, SQLState: 42S22
+2019-06-19 15:27:08.324 ERROR 29160 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown column 'merchants0_.log_url' in 'field list'
+2019-06-19 15:27:08.357  INFO 29160 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@771a660: startup date [Wed Jun 19 15:27:01 PDT 2019]; root of context hierarchy
+2019-06-19 15:27:08.359  INFO 29160 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-06-19 15:27:08.360  INFO 29160 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-06-19 15:27:08.363  INFO 29160 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 15:29:29.714  INFO 29195 --- [main] c.z.passbook.service.MerchantsServTest   : Starting MerchantsServTest on ZhangsudeMBP.hsd1.ca.comcast.net with PID 29195 (started by zswen in /Users/zswen/Desktop/imooc/CouponProj/merchants)
+2019-06-19 15:29:29.716  INFO 29195 --- [main] c.z.passbook.service.MerchantsServTest   : No active profile set, falling back to default profiles: default
+2019-06-19 15:29:29.831  INFO 29195 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@70e9c95d: startup date [Wed Jun 19 15:29:29 PDT 2019]; root of context hierarchy
+2019-06-19 15:29:31.912  INFO 29195 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$d4d5fb8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 15:29:33.877  INFO 29195 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-06-19 15:29:33.900  INFO 29195 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-19 15:29:34.015  INFO 29195 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-06-19 15:29:34.017  INFO 29195 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-19 15:29:34.020  INFO 29195 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-06-19 15:29:34.078  INFO 29195 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-19 15:29:34.270  INFO 29195 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-19 15:29:35.030  INFO 29195 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 15:29:36.117  INFO 29195 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-06-19 15:29:36.137  INFO 29195 --- [main] c.z.passbook.service.MerchantsServTest   : Started MerchantsServTest in 7.357 seconds (JVM running for 9.08)
+2019-06-19 15:29:36.333  INFO 29195 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-19 15:29:36.803  INFO 29195 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@70e9c95d: startup date [Wed Jun 19 15:29:29 PDT 2019]; root of context hierarchy
+2019-06-19 15:29:36.810  INFO 29195 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-06-19 15:29:36.811  INFO 29195 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-06-19 15:29:36.818  INFO 29195 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 15:47:39.784  INFO 29395 --- [main] c.z.passbook.service.MerchantsServTest   : Starting MerchantsServTest on ZhangsudeMBP.hsd1.ca.comcast.net with PID 29395 (started by zswen in /Users/zswen/Desktop/imooc/CouponProj/merchants)
+2019-06-19 15:47:39.787  INFO 29395 --- [main] c.z.passbook.service.MerchantsServTest   : No active profile set, falling back to default profiles: default
+2019-06-19 15:47:39.826  INFO 29395 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4a883b15: startup date [Wed Jun 19 15:47:39 PDT 2019]; root of context hierarchy
+2019-06-19 15:47:42.493  INFO 29395 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$d32179c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-19 15:47:44.550  INFO 29395 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-06-19 15:47:44.575  INFO 29395 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-19 15:47:44.718  INFO 29395 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-06-19 15:47:44.721  INFO 29395 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-19 15:47:44.724  INFO 29395 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-06-19 15:47:44.805  INFO 29395 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-06-19 15:47:45.116  INFO 29395 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-19 15:47:45.867  INFO 29395 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-19 15:47:47.135  INFO 29395 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-06-19 15:47:47.159  INFO 29395 --- [main] c.z.passbook.service.MerchantsServTest   : Started MerchantsServTest in 8.792 seconds (JVM running for 10.585)
+2019-06-19 15:47:47.202  INFO 29395 --- [main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@4e41089d testClass = MerchantsServTest, testInstance = com.zwen.passbook.service.MerchantsServTest@b59d31, testMethod = testCreateMerchantsServ@MerchantsServTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@32a068d1 testClass = MerchantsServTest, locations = '{}', classes = '{class com.zwen.passbook.MerchantsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@4bec1f0c, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6adede5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@370736d9], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@11d4d979]; rollback [true]
+2019-06-19 15:47:47.319  INFO 29395 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-06-19 15:47:47.761  INFO 29395 --- [main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@4e41089d testClass = MerchantsServTest, testInstance = com.zwen.passbook.service.MerchantsServTest@b59d31, testMethod = testCreateMerchantsServ@MerchantsServTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@32a068d1 testClass = MerchantsServTest, locations = '{}', classes = '{class com.zwen.passbook.MerchantsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@4bec1f0c, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6adede5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@370736d9], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2019-06-19 15:47:47.778  INFO 29395 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4a883b15: startup date [Wed Jun 19 15:47:39 PDT 2019]; root of context hierarchy
+2019-06-19 15:47:47.781  INFO 29395 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2019-06-19 15:47:47.784  INFO 29395 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-06-19 15:47:47.786  INFO 29395 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

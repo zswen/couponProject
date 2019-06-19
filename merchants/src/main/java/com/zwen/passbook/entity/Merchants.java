@@ -31,7 +31,7 @@ public class Merchants {
 
     /** merchants logo */
     @Basic
-    @Column(name = "log_url", nullable = false)
+    @Column(name = "logo_url", nullable = false)
     private String logoUrl;
 
     /** merchants license */
