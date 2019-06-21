@@ -4,7 +4,8 @@ import com.zwen.passbook.entity.Merchants;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * Merchants Dao interface. Data Access Object for retrieving information from database
+ * Merchants Dao interface. Data Access Object for retrieving information from database.
+ * We don't need to implement it. JPA will do it for us
  */
 
 public interface MerchantsDao extends JpaRepository<Merchants, Integer> { // <table, key>
