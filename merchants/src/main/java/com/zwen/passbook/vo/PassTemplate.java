@@ -16,31 +16,49 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PassTemplate {
-    /** id of merchant */
+    /**
+     * id of merchant
+     */
     private Integer id;
 
-    /** title of coupon */
+    /**
+     * title of coupon
+     */
     private String title;
 
-    /** coupon summary */
+    /**
+     * coupon summary
+     */
     private String summary;
 
-    /** coupon details */
+    /**
+     * coupon details
+     */
     private String desc;
 
-    /** maximum number of this coupon */
+    /**
+     * maximum number of this coupon
+     */
     private Long limit;
 
-    /** if this coupon has token */
+    /**
+     * if this coupon has token
+     */
     private Boolean hasToken; // token are stored in Redis Set for performance
 
-    /** background color */
+    /**
+     * background color
+     */
     private Integer background;
 
-    /** start time */
+    /**
+     * start time
+     */
     private Date start;
 
-    /** expired time */
+    /**
+     * expired time
+     */
     private Date end;
 
     /**

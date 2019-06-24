@@ -17,23 +17,34 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CreateMerchantsRequest {
 
-    /** merchants name */
+    /**
+     * merchants name
+     */
     private String name;
 
-    /** merchant logo url */
+    /**
+     * merchant logo url
+     */
     private String logoUrl;
 
-    /** merchant license */
+    /**
+     * merchant license
+     */
     private String businessLicenseUrl;
 
-    /** merchant phone */
+    /**
+     * merchant phone
+     */
     private String phone;
 
-    /** merchant address */
+    /**
+     * merchant address
+     */
     private String address;
 
     /**
      * check if this is a validate request
+     *
      * @param merchantsDao
      * @return {@link ErrorCode}
      */
@@ -59,6 +70,7 @@ public class CreateMerchantsRequest {
 
     /**
      * Convert this request object to a Merchants object which will be fit for database
+     *
      * @return {@link Merchants}
      */
     public Merchants toMerchants() {

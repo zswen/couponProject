@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.*;
  */
 
 
-
 @Slf4j
 @RestController
 @RequestMapping("/merchants")
@@ -44,7 +43,7 @@ public class MerchantsCtl {
 
     @ResponseBody
     @PostMapping("/drop")
-    public Response dropPassTemplate(@RequestBody  PassTemplate passTemplate) {
+    public Response dropPassTemplate(@RequestBody PassTemplate passTemplate) {
         log.info("DropPassTemplate: {}", passTemplate);
         return merchantsServ.dropPassTemplate(passTemplate);
     }

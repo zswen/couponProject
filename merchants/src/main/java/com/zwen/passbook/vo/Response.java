@@ -13,17 +13,24 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Response {
-    /** Error code */
+    /**
+     * Error code
+     */
     private Integer errorCode;
 
-    /** error message. Return empty if request succeeded*/
+    /**
+     * error message. Return empty if request succeeded
+     */
     private String errorMsg = "";
 
-    /** return object */
+    /**
+     * return object
+     */
     private Object data;
 
     /**
      * Response constructor
+     *
      * @param data
      */
     public Response(Object data) {

@@ -47,7 +47,6 @@ public class MerchantsServTest {
      * First comment @Transactional and run above case generate a merchant in database and then run this
      * {"data":{"address":"SJ","businessLicenseUrl":"www.zwen.com","id":19,"isAudit":false,
      * "logoUrl":"www.zwen.com","name":"zwen","phone":"2174171459"},"errorMsg":""}
-     *
      */
 
     @Test

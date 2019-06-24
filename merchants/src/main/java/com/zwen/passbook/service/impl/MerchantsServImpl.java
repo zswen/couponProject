@@ -26,7 +26,9 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class MerchantsServImpl implements IMerchantsServ {
 
-    /** Merchants database interface */
+    /**
+     * Merchants database interface
+     */
     private final MerchantsDao merchantsDao;
 
     private KafkaTemplate<String, String> kafkaTemplate;

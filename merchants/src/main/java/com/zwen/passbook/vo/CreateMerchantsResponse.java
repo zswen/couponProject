@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * 5.7
- *  merchants creation operation response object
+ * merchants creation operation response object
  */
 
 @Data
@@ -15,7 +15,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CreateMerchantsResponse {
 
-    /** the Id we generated in database, will give it back to merchants. Failure will return -1 */
+    /**
+     * the Id we generated in database, will give it back to merchants. Failure will return -1
+     */
     private Integer id;
 
 

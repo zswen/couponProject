@@ -11,13 +11,13 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface MerchantsDao extends JpaRepository<Merchants, Integer> { // <table, key>
     /**
      * retrieve object by using id
-     * @prarm id
+     *
      * @return {@link Merchants}
+     * @prarm id
      */
     Merchants findById(Integer id);
 
     /**
-     *
      * @param name
      * @return {@link Merchants}
      */

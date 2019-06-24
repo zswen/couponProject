@@ -31,7 +31,6 @@ public class AuthCheckInterceptor implements HandlerInterceptor { // preprocess,
         }
 
 
-
         AccessContext.setToken(token);
 
         /**

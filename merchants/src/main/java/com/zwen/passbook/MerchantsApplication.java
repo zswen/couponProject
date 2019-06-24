@@ -17,7 +17,7 @@ public class MerchantsApplication extends WebMvcConfigurerAdapter {
     @Resource // inject java bean
     private AuthCheckInterceptor authCheckInterceptor;
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         SpringApplication.run(MerchantsApplication.class, args);
     }
 

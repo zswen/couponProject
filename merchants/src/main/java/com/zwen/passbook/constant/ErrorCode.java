@@ -1,6 +1,8 @@
 package com.zwen.passbook.constant;
 
-/** Error Code definitions */
+/**
+ * Error Code definitions
+ */
 
 public enum ErrorCode {
 
@@ -12,10 +14,14 @@ public enum ErrorCode {
     EMPTY_ADDRESS(5, "商户地址为空"),
     MERCHANTS_NOT_EXIST(6, "商户不存在");
 
-    /** Error code */
+    /**
+     * Error code
+     */
     private Integer code;
 
-    /** Error Description */
+    /**
+     * Error Description
+     */
     private String desc;
 
     ErrorCode(Integer code, String desc) {
