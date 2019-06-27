@@ -57,7 +57,7 @@ public class Constants {
         public static final String TABLE_NAME = "pb:passtemplate";
 
         /** Basic info column family*/
-        public static final String Family_B = "b";
+        public static final String FAMILY_B = "b";
 
         /** Merchant id */
         public static final String ID = "id";

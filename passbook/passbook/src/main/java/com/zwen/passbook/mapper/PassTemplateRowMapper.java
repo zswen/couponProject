@@ -12,7 +12,7 @@ import vo.PassTemplate;
  */
 public class PassTemplateRowMapper implements RowMapper<PassTemplate> {
 
-    private static byte[] FAMILY_B = Constants.PassTemplateTable.Family_B.getBytes();
+    private static byte[] FAMILY_B = Constants.PassTemplateTable.FAMILY_B.getBytes();
     private static byte[] ID = Constants.PassTemplateTable.ID.getBytes();
     private static byte[] TITLE = Constants.PassTemplateTable.TITLE.getBytes();
     private static byte[] SUMMARY = Constants.PassTemplateTable.SUMMARY.getBytes();

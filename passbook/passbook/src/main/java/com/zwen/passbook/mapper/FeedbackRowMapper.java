@@ -10,7 +10,7 @@ import vo.Feedback;
  * <h1>Feedback HBase row to feedback OBject </h1>
  * 6-10
  */
-public class FeedbackMapper implements RowMapper<Feedback> {
+public class FeedbackRowMapper implements RowMapper<Feedback> {
 
     private static byte[] FAMILY_I = Constants.Feedback.FAMILY_I.getBytes();
     private static byte[] USER_ID = Constants.Feedback.USER_ID.getBytes();
