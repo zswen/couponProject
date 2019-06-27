@@ -3,11 +3,12 @@ package com.zwen.passbook.utils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import vo.Feedback;
+import vo.GainPassTemplateRequest;
 import vo.PassTemplate;
 
 /**
  * <h1>RowKey generation utils </h1>
- * 6-11
+ * 6-11, 6-20
  *
  */
 @Slf4j
@@ -27,6 +28,19 @@ public class RowKeyGenUtil {
         log.info("GenPassTemplateRowKey: {}, {}", passInfo, rowKey);
 
         return rowKey;
+    }
+
+    /**
+     * <h2>Generate a rowKey based on provided pick up pass template request</h2>
+     * Pass Rowkey = reversed(userId) + inverse(timestamp) + PassTemplate RowKey
+     * Add passTemplate rowKey for data science purpose because we can see which user picked a specific pass(filter)
+     * @param request {@link GainPassTemplateRequest}
+     * @return
+     */
+    public static String genPassRowKey(GainPassTemplateRequest request) {
+        return new StringBuilder(String.valueOf(request.getUserId())).reverse().toString()
+                + (Long.MAX_VALUE - System.currentTimeMillis())
+                + genPassTemplateRowKey(request.getPassTemplate());
     }
 
     /**

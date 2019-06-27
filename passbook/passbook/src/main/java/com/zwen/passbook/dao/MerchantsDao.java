@@ -26,11 +26,11 @@ public interface MerchantsDao extends JpaRepository<Merchants, Integer> {
     Merchants findByName(String name);
 
     /**
-     * <h2>Given ids, retrieve merchants</h2>
+     * <h2>Given array of ids, retrieve merchants</h2>
      * @param ids Merchants ids
      * @return {@link Merchants}
      */
 
-    List<Merchants> findAllBy(List<Integer> ids);
+    List<Merchants> findByIdIn(List<Integer> ids);
 
 }

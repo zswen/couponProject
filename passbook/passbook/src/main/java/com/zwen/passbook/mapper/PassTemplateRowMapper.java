@@ -8,7 +8,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 import vo.PassTemplate;
 
 /**
- * <h1>HBase PassTemplate row to PassTamplate Object</h1>
+ * <h1>HBase PassTemplate row raw data to PassTamplate Object</h1>
  */
 public class PassTemplateRowMapper implements RowMapper<PassTemplate> {
 
