@@ -2,9 +2,9 @@ package com.zwen.passbook.utils;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
-import vo.Feedback;
-import vo.GainPassTemplateRequest;
-import vo.PassTemplate;
+import com.zwen.passbook.vo.Feedback;
+import com.zwen.passbook.vo.GainPassTemplateRequest;
+import com.zwen.passbook.vo.PassTemplate;
 
 /**
  * <h1>RowKey generation utils </h1>

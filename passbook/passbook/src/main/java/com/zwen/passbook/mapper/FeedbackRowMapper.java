@@ -4,7 +4,7 @@ import com.spring4all.spring.boot.starter.hbase.api.RowMapper;
 import com.zwen.passbook.constant.Constants;
 import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.hbase.util.Bytes;
-import vo.Feedback;
+import com.zwen.passbook.vo.Feedback;
 
 /**
  * <h1>Feedback HBase row to feedback OBject </h1>

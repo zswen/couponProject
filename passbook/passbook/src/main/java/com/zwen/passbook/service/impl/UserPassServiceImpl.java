@@ -15,12 +15,11 @@ import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.filter.*;
 import org.apache.hadoop.hbase.util.Bytes;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vo.Pass;
-import vo.PassInfo;
-import vo.PassTemplate;
-import vo.Response;
+import com.zwen.passbook.vo.Pass;
+import com.zwen.passbook.vo.PassInfo;
+import com.zwen.passbook.vo.PassTemplate;
+import com.zwen.passbook.vo.Response;
 
 import java.util.*;
 import java.util.stream.Collectors;

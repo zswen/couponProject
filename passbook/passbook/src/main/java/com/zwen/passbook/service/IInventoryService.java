@@ -1,6 +1,6 @@
 package com.zwen.passbook.service;
 
-import vo.Response;
+import com.zwen.passbook.vo.Response;
 
 /**
  * <h1>Retrieve Inventory. Only includes passes that a user has not picked up.</h1>

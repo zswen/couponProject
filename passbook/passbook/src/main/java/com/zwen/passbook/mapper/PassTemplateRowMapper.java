@@ -5,7 +5,7 @@ import com.zwen.passbook.constant.Constants;
 import org.apache.commons.lang.time.DateUtils;
 import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.hbase.util.Bytes;
-import vo.PassTemplate;
+import com.zwen.passbook.vo.PassTemplate;
 
 /**
  * <h1>HBase PassTemplate row raw data to PassTamplate Object</h1>

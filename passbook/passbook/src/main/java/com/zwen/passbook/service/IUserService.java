@@ -1,7 +1,7 @@
 package com.zwen.passbook.service;
 
-import vo.Response;
-import vo.User;
+import com.zwen.passbook.vo.Response;
+import com.zwen.passbook.vo.User;
 
 /**
  * <h1>User service. Create User </h1>

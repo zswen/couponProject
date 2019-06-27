@@ -1,4 +1,4 @@
-package vo;
+package com.zwen.passbook.vo;
 
 import com.zwen.passbook.entity.Merchants;
 import lombok.AllArgsConstructor;

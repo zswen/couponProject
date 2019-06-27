@@ -12,7 +12,7 @@ import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.util.Bytes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vo.PassTemplate;
+import com.zwen.passbook.vo.PassTemplate;
 
 /**
  * <h1>Pass Hbase service Implementation. Drop pass template to hbase</h1>

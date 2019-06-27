@@ -8,12 +8,10 @@ import org.apache.commons.lang.RandomStringUtils;
 import org.apache.hadoop.hbase.client.Mutation;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.util.Bytes;
-import org.hibernate.validator.constraints.Range;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
-import vo.Response;
-import vo.User;
+import com.zwen.passbook.vo.Response;
+import com.zwen.passbook.vo.User;
 
 import java.util.ArrayList;
 import java.util.List;

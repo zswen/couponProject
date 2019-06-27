@@ -1,4 +1,4 @@
-package vo;
+package com.zwen.passbook.vo;
 
 import com.google.common.base.Enums;
 import com.zwen.passbook.constant.FeedbackType;

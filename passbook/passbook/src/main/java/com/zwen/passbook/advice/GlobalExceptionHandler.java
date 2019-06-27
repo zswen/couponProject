@@ -3,7 +3,7 @@ package com.zwen.passbook.advice;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
-import vo.ErrorInfo;
+import com.zwen.passbook.vo.ErrorInfo;
 
 import javax.servlet.http.HttpServletRequest;
 

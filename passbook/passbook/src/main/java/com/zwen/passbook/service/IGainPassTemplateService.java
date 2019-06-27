@@ -1,7 +1,7 @@
 package com.zwen.passbook.service;
 
-import vo.GainPassTemplateRequest;
-import vo.Response;
+import com.zwen.passbook.vo.GainPassTemplateRequest;
+import com.zwen.passbook.vo.Response;
 
 /**
  * <h1>User pick up passtemplate</h1>

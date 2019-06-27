@@ -12,11 +12,9 @@ import org.apache.hadoop.hbase.filter.FilterList;
 import org.apache.hadoop.hbase.filter.LongComparator;
 import org.apache.hadoop.hbase.filter.SingleColumnValueFilter;
 import org.apache.hadoop.hbase.util.Bytes;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vo.Pass;
-import vo.PassTemplate;
-import vo.Response;
+import com.zwen.passbook.vo.PassTemplate;
+import com.zwen.passbook.vo.Response;
 
 import java.util.ArrayList;
 import java.util.Date;

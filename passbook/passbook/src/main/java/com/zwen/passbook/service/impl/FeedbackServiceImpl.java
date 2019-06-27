@@ -11,10 +11,9 @@ import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Scan;
 import org.apache.hadoop.hbase.filter.PrefixFilter;
 import org.apache.hadoop.hbase.util.Bytes;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vo.Feedback;
-import vo.Response;
+import com.zwen.passbook.vo.Feedback;
+import com.zwen.passbook.vo.Response;
 
 import java.util.List;
 

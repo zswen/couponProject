@@ -1,7 +1,7 @@
 package com.zwen.passbook.service;
 
-import vo.Feedback;
-import vo.Response;
+import com.zwen.passbook.vo.Feedback;
+import com.zwen.passbook.vo.Response;
 
 /**
  * <h1>Feedback related features</h1>

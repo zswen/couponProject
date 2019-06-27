@@ -9,7 +9,7 @@ import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
-import vo.PassTemplate;
+import com.zwen.passbook.vo.PassTemplate;
 
 /**
  * <h1>Consume passTemplate in Kafka</h1>

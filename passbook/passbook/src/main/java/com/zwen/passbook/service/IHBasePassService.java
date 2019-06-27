@@ -1,6 +1,6 @@
 package com.zwen.passbook.service;
 
-import vo.PassTemplate;
+import com.zwen.passbook.vo.PassTemplate;
 
 /**
  * <h1>Pass Hbase service. Drop pass template to hbase</h1>
