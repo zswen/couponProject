@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * <h1>Pass info. Pass templates that users have picked up. From pass table in HBase</h1>
+ * <h1>Pass info. Passs that users have picked up. From pass table in HBase</h1>
  * 6-18
  */
 @Data
